@@ -212,10 +212,10 @@ li{
     margin:0px;
     padding:0px;
     width:100%;
+    margin: auto;
     text-align:center;
   }
   .fa-2x{
-    padding:5%;
-    float:left;
+    padding:2%;
   }
 }
