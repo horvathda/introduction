@@ -29,8 +29,9 @@ font-family: 'Abril Fatface', cursive;
   width:45%;
   height:100%;
   
-  box-shadow: inset 90px 50px 50px 1px white;
-  
+-webkit-box-shadow: inset 117px 0px 55px -14px rgba(255,255,255,1);
+-moz-box-shadow: inset 117px 0px 55px -14px rgba(255,255,255,1);
+box-shadow: inset 117px 0px 55px -14px rgba(255,255,255,1);  
   background-color:black;
 }
 .nev{
@@ -72,7 +73,7 @@ h3{
   font-size:130%;
   float:left;
   
-  border:3px solid black;
+  border:3px double black;
   text-align:left;
   padding-left:8%;
   padding-right:20%;
@@ -81,7 +82,7 @@ h3{
 }
 .introduction{
   float:left;
-  border:3px solid black;
+  border:3px double black;
   padding:4%;
   margin-top:-10%;
   margin-left:8vw;
@@ -135,10 +136,12 @@ li{
     height:100%;
   }
     .profile-image{    
-    width:100%;
-    box-shadow:inset 0px 0px 0px 0px;
+    width:100%;    
     position:absolute;
-      background-position: right;
+    background-position: right;
+      -webkit-box-shadow: inset 0px -82px 55px -14px rgba(255,255,255,1);
+-moz-box-shadow: inset 0px -82px 55px -14px rgba(255,255,255,1);
+box-shadow: inset 0px -82px 55px -14px rgba(255,255,255,1);
       
   
       
@@ -176,15 +179,19 @@ li{
     text-align:center;
     margin-right:10%;
     margin-left:10%;
-    margin-top:74%;
+    margin-top:90%;
     padding-top:5%;
-    padding-bottom:15%;
+    padding-bottom:20%;
+    border:3px double black;
     }
   .introduction{
-    width:100%;
+    width:96%;
     margin:0px;
     padding:0px;
     padding-top:2vw;
+    margin-top:-15vw;
+    margin-right:2%;
+    margin-left:2%;
     }
   .intro{
     width:80%;
@@ -192,13 +199,20 @@ li{
     padding:0px;
     margin:0 auto;
     text-align:center;
-    margin-top:-13%;
-    padding-bottom:12%;
-    
   }
   .szoveg{
-    padding:5px;
+    padding:0px;
+    margin:0px;
+    padding:2%;
+    padding-bottom:5%;
     padding-top:8%;
+    
+  }
+  .socila-icon{
+    margin:0px;
+    padding:0px;
+    width:100%;
+    
     
   }
 }
