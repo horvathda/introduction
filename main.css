@@ -140,9 +140,8 @@ li{
     position:absolute;
     }
   .hello{
-    font-size:12vw;
+    font-size:15vw;
     text-align:left;
-    border:solid 2px black;
     padding:2%;
     
   }
@@ -150,10 +149,11 @@ li{
     position:sticky;
   }
   .im{
-    font-size:7vw;
+    font-size:12vw;
     float:right;
     width:30%;
     margin-top:10vw;
+    margin-right:20%;
   }
   .from{
     width:75%;
