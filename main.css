@@ -211,8 +211,7 @@ li{
   .social-icon{
     margin:0px;
     padding:0px;
-    width:26%;
-    margin: 0px 37.5%;
+    width:100%;
     text-align:center;
   }
   .fa-2x{
