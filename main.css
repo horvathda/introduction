@@ -42,6 +42,7 @@ box-shadow: inset 117px 0px 55px -14px rgba(255,255,255,1);
 .fa-map-marker-alt{
   font-size:90%;
 }
+
 .fa-2x{
   color: rgba(0,0,0,0.6);
   float:left;
@@ -108,7 +109,6 @@ p{
   float:right;
   width:40%;
   height:30%;
-  text-align:right;
   padding:5%;
   margin-top:-2%;
 }
@@ -139,9 +139,9 @@ li{
     width:100%;    
     position:absolute;
     background-position: right;
-      -webkit-box-shadow: inset 0px -82px 55px -14px rgba(255,255,255,1);
--moz-box-shadow: inset 0px -82px 55px -14px rgba(255,255,255,1);
-box-shadow: inset 0px -82px 55px -14px rgba(255,255,255,1);
+    -webkit-box-shadow: inset 0px -82px 55px -14px rgba(255,255,255,1);
+    -moz-box-shadow: inset 0px -82px 55px -14px rgba(255,255,255,1);
+    box-shadow: inset 0px -82px 55px -14px rgba(255,255,255,1);
       
   
       
@@ -154,12 +154,12 @@ box-shadow: inset 0px -82px 55px -14px rgba(255,255,255,1);
   }
   *{
     position:sticky;
-  }
+    }
   .im{
     font-size:12vw;
     float:right;
     width:30%;
-    margin-top:10vw;
+    margin-top:30vw;
     margin-right:20%;
   }
   .from{
@@ -179,7 +179,7 @@ box-shadow: inset 0px -82px 55px -14px rgba(255,255,255,1);
     text-align:center;
     margin-right:10%;
     margin-left:10%;
-    margin-top:90%;
+    margin-top:80%;
     padding-top:5%;
     padding-bottom:20%;
     border:3px double black;
@@ -208,11 +208,15 @@ box-shadow: inset 0px -82px 55px -14px rgba(255,255,255,1);
     padding-top:8%;
     
   }
-  .socila-icon{
+  .social-icon{
     margin:0px;
     padding:0px;
-    width:100%;
-    
-    
+    width:26%;
+    margin: 0px 37.5%;
+    text-align:center;
+  }
+  .fa-2x{
+    padding:5%;
+    float:left;
   }
 }
