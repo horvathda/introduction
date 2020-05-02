@@ -135,7 +135,8 @@ li{
       position:absolute;
     }
   .hello{
-    margin-left:-250%;
+    margin-left:-150%;
     position:sticky;
+    font-size:20vw;
     }
 }
